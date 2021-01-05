@@ -5,8 +5,9 @@ import './App.css';
 import ValueContext from './ValueContext';
 
 function App() {
- // let [number, setnumber] = useState(47);
- let value=81;
+ let value = useState(47);
+// value[0];
+// value[1];
   return (
   <ValueContext.Provider value={value}>
     <div>
